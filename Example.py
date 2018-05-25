@@ -12,7 +12,7 @@ from sklearn.preprocessing import StandardScaler
 from scipy.stats import beta
 
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = 'C:/Users/RB287JD/Desktop/Dhivya_upload/uploads/'
+app.config['UPLOAD_FOLDER'] = '/folder'
 
 
 @app.route('/getfile', methods=['POST'])
